@@ -5,7 +5,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int arr[10];
-    int max, number, maxes = 1;
+    int max, number = 0, maxes = 1;
     for (int i = 0; i < 10; i++)
     {
         cout << "Введите элемент массива с индесом [" << i << "] = ";
@@ -19,6 +19,7 @@ int main()
         {
             max = arr[i];
             number = i;
+            maxes = 1;
         }
         else if (arr[i] == max)
         {
