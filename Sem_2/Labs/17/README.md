@@ -11,9 +11,9 @@
 2. Поиск алгоритмом Кнутта-Морриса-Пратта.
 
 ## Блок-схема
-![Блок схема поисков](jpeg's\17_searches.jpg)
+![Блок схема поисков](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/jpeg's/17_searches.jpg)
 
-![Блок схема main](jpeg's\17_main.jpg)
+![Блок схема main](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/jpeg's/17_main.jpg)
 
 ## Программа
 ```cpp
@@ -121,7 +121,7 @@ int main()
 }
 ```
 
-## Тесты тестом
+## Тесты текстом
 1)
 Введите строку:
 Эггман был яичным человеком - куриная голова и человеческое тело. Он участвовал в грязной гонке с другими яичными людьми
@@ -163,5 +163,5 @@ fi
 Паттерн найден по индексу 138
 
 ## Тесты скриншоты
-![Блок схема поисков](screen\1.png)
-![Блок схема поисков](screen\2.png)
+![Блок схема поисков](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/screen/1.png)
+![Блок схема поисков](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/screen/2.png)
