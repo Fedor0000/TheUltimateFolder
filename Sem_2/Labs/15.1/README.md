@@ -139,6 +139,6 @@ int main()
 
 ## Тесты скриншоты
 
-![Первый тест](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/screen/1.png)
-![Второй тест](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/screen/2.png)
-![Третий тест](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/17/screen/3.png)
+![Первый тест](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/15.1/screen/1.png)
+![Второй тест](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/15.1/screen/2.png)
+![Третий тест](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/15.1/screen/3.png)
