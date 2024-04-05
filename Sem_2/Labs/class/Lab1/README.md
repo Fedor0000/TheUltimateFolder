@@ -332,7 +332,9 @@ B = 5.5
 
 ## Тесты скриншоты
 
-Появятся позже
+![Скриншот номер 1](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab1/screen/1.png)
+![Скриншот номер 2](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab1/screen/2.png)
+![Скриншот номер 3](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab1/screen/3.png)
 
 ## Ответы на вопросы
 
