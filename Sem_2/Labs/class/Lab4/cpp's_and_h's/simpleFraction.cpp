@@ -43,9 +43,9 @@ SimpleFraction SimpleFraction::operator*(const SimpleFraction& p)
 }
 istream& operator>>(istream& in, SimpleFraction& l)
 {
-	cout << "Ââåäèòå ÷èñëèòåëü ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÐµÐ»ÑŒ ";
 	in >> l.first;
-	cout << "Ââåäèòå çíàìåíàòåëü ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ð¼ÐµÐ½Ð°Ñ‚ÐµÐ»ÑŒ ";
 	in >> l.second;
 	return in;
 }
