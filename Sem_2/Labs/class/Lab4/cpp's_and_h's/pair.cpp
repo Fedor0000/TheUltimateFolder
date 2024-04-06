@@ -45,15 +45,15 @@ Pair Pair::operator-(const Pair& p)
 }
 istream& operator>>(istream& in, Pair& c)
 {
-	cout << "Ââåäèòå ïåğâîå ÷èñëî ïàğû: ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ°Ñ€Ñ‹: ";
 	in >> c.first;
-	cout << "Ââåäèòå âòîğîå ÷èñëî ïàğû: ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ°Ñ€Ñ‹: ";
 	in >> c.second;
 	return in;
 }
 ostream& operator<<(ostream& out, const Pair& p)
 {
-	out << "Ïåğâîå ÷èñëî ïàğû: " << p.first << endl;
-	out << "Âòîğîå ÷èñëî ïàğû: " << p.second << endl;
+	out << "ĞŸĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ°Ñ€Ñ‹: " << p.first << endl;
+	out << "Ğ’Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ°Ñ€Ñ‹: " << p.second << endl;
 	return out;
 }
