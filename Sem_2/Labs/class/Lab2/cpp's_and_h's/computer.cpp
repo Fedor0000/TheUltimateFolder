@@ -8,25 +8,25 @@ Computer::Computer()
 	processor = "";
 	ramCapacity = 0;
 	hddCapacity = 0;
-	cout << "Áûë âûçâàí êîíñòðóêòîð áåç ïàðàìåòðîâ äëÿ îáúåêòà " << this << endl;
+	cout << "Ð‘Ñ‹Ð» Ð²Ñ‹Ð·Ð²Ð°Ð½ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Ð±ÐµÐ· Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð¾Ð² Ð´Ð»Ñ Ð¾Ð±ÑŠÐµÐºÑ‚Ð° " << this << endl;
 }
 Computer::Computer(string P, int R, int H)
 {
 	processor = P;
 	ramCapacity = R;
 	hddCapacity = H;
-	cout << "Áûë âûçâàí êîíñòðóêòîð ñ ïàðàìåòðàìè äëÿ îáúåêòà " << this << endl;
+	cout << "Ð‘Ñ‹Ð» Ð²Ñ‹Ð·Ð²Ð°Ð½ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Ñ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð°Ð¼Ð¸ Ð´Ð»Ñ Ð¾Ð±ÑŠÐµÐºÑ‚Ð° " << this << endl;
 }
 Computer::Computer(const Computer& t)
 {
 	processor = t.processor;
 	ramCapacity = t.ramCapacity;
 	hddCapacity = t.hddCapacity;
-	cout << "Áûë âûçâàí êîíñòðóêòîð êîïèðîâàíèÿ äëÿ îáúåêòà " << this << endl;
+	cout << "Ð‘Ñ‹Ð» Ð²Ñ‹Ð·Ð²Ð°Ð½ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ð´Ð»Ñ Ð¾Ð±ÑŠÐµÐºÑ‚Ð° " << this << endl;
 }
 Computer::~Computer()
 {
-	cout << "Áûë âûçâàí äåñòðóêòîð äëÿ îáúåêòà " << this << endl;
+	cout << "Ð‘Ñ‹Ð» Ð²Ñ‹Ð·Ð²Ð°Ð½ Ð´ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Ð´Ð»Ñ Ð¾Ð±ÑŠÐµÐºÑ‚Ð° " << this << endl;
 }
 string Computer::getProcessor()
 {
@@ -54,7 +54,7 @@ void Computer::setHddCapacity(int H)
 }
 void Computer::show()
 {
-	cout << "Ïðîöåññîð: " << processor << endl;
-	cout << "Îáúåì îïåðàòèâíîé ïàìÿòè (â ãèãàáàéòàõ): " << ramCapacity << endl;
-	cout << "Îáúåì æ¸ñòêîãî äèñêà (â ãèãàáàéòàõ): " << hddCapacity << endl;
+	cout << "ÐŸÑ€Ð¾Ñ†ÐµÑÑÐ¾Ñ€: " << processor << endl;
+	cout << "ÐžÐ±ÑŠÐµÐ¼ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¸Ð²Ð½Ð¾Ð¹ Ð¿Ð°Ð¼ÑÑ‚Ð¸ (Ð² Ð³Ð¸Ð³Ð°Ð±Ð°Ð¹Ñ‚Ð°Ñ…): " << ramCapacity << endl;
+	cout << "ÐžÐ±ÑŠÐµÐ¼ Ð¶Ñ‘ÑÑ‚ÐºÐ¾Ð³Ð¾ Ð´Ð¸ÑÐºÐ° (Ð² Ð³Ð¸Ð³Ð°Ð±Ð°Ð¹Ñ‚Ð°Ñ…): " << hddCapacity << endl;
 }
