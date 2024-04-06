@@ -39,10 +39,10 @@ public:
 		kopecks = k;
 	}
 	Money& operator=(const Money&);
-	Money& operator++(); // префиксная
-	Money& operator--(); // префиксная
-	Money operator++(int); //постфиксная
-	Money operator--(int); //постфиксная
+	Money& operator++(); // РїСЂРµС„РёРєСЃРЅР°СЏ
+	Money& operator--(); // РїСЂРµС„РёРєСЃРЅР°СЏ
+	Money operator++(int); //РїРѕСЃС‚С„РёРєСЃРЅР°СЏ
+	Money operator--(int); //РїРѕСЃС‚С„РёРєСЃРЅР°СЏ
 	Money operator+(const Money&);
 	Money operator-(const Money&);
 	Money operator*(const Money&);
