@@ -9,24 +9,24 @@ Money& Money::operator=(const Money& t)
 	kopecks = t.kopecks;
 	return *this;
 }
-Money& Money::operator++() // ïðåôèêñíàÿ îïåðàöèÿ
+Money& Money::operator++() // Ð¿Ñ€ÐµÑ„Ð¸ÐºÑÐ½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ
 {
 	rubles++;
 	return *this;
 }
-Money& Money::operator--() // ïðåôèêñíàÿ îïåðàöèÿ
+Money& Money::operator--() // Ð¿Ñ€ÐµÑ„Ð¸ÐºÑÐ½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ
 {
 	rubles--;
 	return *this;
 }
-Money Money::operator ++(int) // ïîñòôèêñíàÿ îïåðàöèÿ
+Money Money::operator ++(int) // Ð¿Ð¾ÑÑ‚Ñ„Ð¸ÐºÑÐ½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ
 {
 	int temp = rubles;
 	temp++;
 	Money t(temp, kopecks);
 	return t;
 }
-Money Money::operator--(int) // ïîñòôèêñíàÿ îïåðàöèÿ
+Money Money::operator--(int) // Ð¿Ð¾ÑÑ‚Ñ„Ð¸ÐºÑÐ½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ
 {
 	Money tmp = *this;
 	tmp.rubles--;
@@ -120,9 +120,9 @@ Money Money::operator/(const double& t)
 }
 istream& operator>>(istream& in, Money& t)
 {
-	cout << "Ââåäèòå ðóáëè áåç êîïååê (åñëè âû ââîäèòå îòðèöàòåëüíîå ÷èñëî, ââîäèòå è ðóáëè è êîïåéêè ñî çíàêîì ìèíóñ): ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€ÑƒÐ±Ð»Ð¸ Ð±ÐµÐ· ÐºÐ¾Ð¿ÐµÐµÐº (ÐµÑÐ»Ð¸ Ð²Ñ‹ Ð²Ð²Ð¾Ð´Ð¸Ñ‚Ðµ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð²Ð²Ð¾Ð´Ð¸Ñ‚Ðµ Ð¸ Ñ€ÑƒÐ±Ð»Ð¸ Ð¸ ÐºÐ¾Ð¿ÐµÐ¹ÐºÐ¸ ÑÐ¾ Ð·Ð½Ð°ÐºÐ¾Ð¼ Ð¼Ð¸Ð½ÑƒÑ): ";
 	in >> t.rubles;
-	cout << "Ââåäèòå êîïåéêè áåç ðóáëåé: "; in >> t.kopecks;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¿ÐµÐ¹ÐºÐ¸ Ð±ÐµÐ· Ñ€ÑƒÐ±Ð»ÐµÐ¹: "; in >> t.kopecks;
 	if (abs(t.kopecks) >= 100)
 	{
 		int buf = t.kopecks / 100;
