@@ -1193,15 +1193,15 @@ int main()
 
 ## Тесты скриншоты
 
-![Скриншот номер 1](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/screen/1.png)
+![Скриншот номер 1](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab9/screen/1.png)
 
-![Скриншот номер 2](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/screen/2.png)
+![Скриншот номер 2](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab9/screen/2.png)
 
-![Скриншот номер 3](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/screen/3.png)
+![Скриншот номер 3](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab9/screen/3.png)
 
-![Скриншот номер 4](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/screen/4.png)
+![Скриншот номер 4](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab9/screen/4.png)
 
-![Скриншот номер 5](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/screen/5.png)
+![Скриншот номер 5](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab9/screen/5.png)
 
 ## Ответы на вопросы
 
