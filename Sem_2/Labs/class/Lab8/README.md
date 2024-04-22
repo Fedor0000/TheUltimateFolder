@@ -34,11 +34,11 @@
 
 ## UML-диаграмма
 
-пока не готова
+![uml](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/uml.png)
 
 ## Диаграмма объектов
 
-пока не готова
+![object](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab8/8.png)
 
 ## Код программы
 
