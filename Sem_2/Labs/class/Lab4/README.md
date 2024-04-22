@@ -27,7 +27,7 @@
 
 ## UML-диаграмма
 
-пока не готова
+![uml](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab4/uml.png)
 
 ## Код программы
 
