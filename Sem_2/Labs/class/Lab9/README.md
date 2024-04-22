@@ -19,7 +19,7 @@ int() – определение размера вектора;
 
 ## UML-диаграмма
 
-пока не готова
+![uml](https://github.com/Fedor0000/TheUltimateFolder/blob/main/Sem_2/Labs/class/Lab9/uml.png)
 
 ## Код программы
 
