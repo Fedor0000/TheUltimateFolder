@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tramvai</class>
+ <widget class="QMainWindow" name="Tramvai">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1328</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tramvai</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="marshrutiANDtrams">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>471</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setTramvaiBTN">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>190</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Установить кол-во трамваев на маршрут</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="marshrutInput">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>190</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="setTramKolvoInput">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>190</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="upMarshrutBTN">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>130</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Улучшить маршрут</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="upMarshrutInput">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>130</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buyTramBTN">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>70</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Купить трамвай</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="tramCost">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>70</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="money">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>10</y>
+      <width>831</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ubgradeBiletsBTN">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>250</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Повысить цены на билет</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Маршруты и прогнозы:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Деньги:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="upMarshrutCost">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>130</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="biletUPcost">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>250</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>370</y>
+      <width>831</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>                               Инструкция:
+Цель - заработать как можно больше денег и пережить хотя бы 100 дней.
+Если на маршруте повышено количество людей, зароботок с маршрута увеличен.
+Если людей среднее количество - зароботок базовый.
+Если людей мало - зароботок снижен.
+Каждый день может случится поломка трамвая или сбитие человека, эти события
+ уносят некоторое кол-во денег, если денег не хватит, вы банкрот, нужно начать сначала.
+Чем больше трамваев, тем больше поломок и аварий.
+Каждый новый трамвай дороже предыдущего.
+Повышение цен на билеты - дорогая прцедура.
+Улучшение маршрута позволяет пустить больше трамваев,
+но и минимальное количество трамваев  на маршруте также растет.
+Открытие нового маршрута - очень дорогое событие.
+Каждый трамвай за день потребляет какое-то кол-во электричества.
+На каждый сотый день вас ждет ремонт трам. путей, зависящий от кол-ва маршрутов.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newMarshrutBTN">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>310</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Новый маршрут</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="newMarshrutCost">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>310</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Сводка за предыдущий день:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="rashodi">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>471</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newDayBTN">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>710</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Начать новый день</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newGameBTN">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>710</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Alternates</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Начать заного</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
