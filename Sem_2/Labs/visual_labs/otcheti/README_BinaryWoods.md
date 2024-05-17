@@ -1202,4 +1202,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 Работу программы сложно показать на скриншоте, поэтому здесь есть видео:
 
-![видео](https://youtu.be/QN4MX_hL6bs)
+[![](https://markdown-videos-api.jorgenkh.no/youtube/QN4MX_hL6bs)](https://youtu.be/QN4MX_hL6bs)
