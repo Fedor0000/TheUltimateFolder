@@ -941,7 +941,7 @@
             }
         }
         if (count($polnCombs) > 0) $polnCombs = shortBasis($polnCombs);
-        else $polnCombs = $functions;
+        else $polnCombs = [implode('+', $functions)];
         return $polnCombs;
     }
     ?>
